@@ -1,1 +1,2 @@
 # Road-Traffic-Analysis-with-Congestion-Detector
+This project presents a C++ based Traffic Congestion Detector that utilizes dynamic linked lists to monitor and analyze vehicle flow across multiple city routes. By calculating real-time congestion scores and estimated travel times, the system provides data-driven insights into road health and traffic density. The software ultimately serves as a navigation aid by comparing different paths and recommending the most efficient route to the user.
