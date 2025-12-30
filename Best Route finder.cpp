@@ -104,9 +104,9 @@ private:
     Road road1, road2, road3;
 public:
     TrafficSystem() {
-        road1.initialize(80, 15.5);
-        road2.initialize(60, 12.0);
-        road3.initialize(100, 18.0);
+        road1.initialize(50, 15.5);
+        road2.initialize(50, 12.0);
+        road3.initialize(80, 18.0);
     }
 void printRoadName(int roadNum) {
         if (roadNum == 1) cout << "Via 9th Avenue";
@@ -228,4 +228,5 @@ cout << "Invalid choice!"<<endl;
 } while (choice != 5);
 return 0;
 }
+
 
